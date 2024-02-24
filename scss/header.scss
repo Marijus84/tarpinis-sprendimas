@@ -1,0 +1,48 @@
+header,
+.sign-up {
+  background: url("../images/bg-masthead.jpg");
+  background-position: bottom;
+  background-size: cover;
+  text-align: center;
+  color: $base-color;
+
+  .container {
+    @include apply-main-container;
+    padding: 150px 75px;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  input {
+    padding: 0.6rem;
+    border-radius: 5px;
+  }
+
+  input[type="text"] {
+    width: 60%;
+    border: none;
+    outline: none;
+  }
+
+  input[type="submit"] {
+    width: 15%;
+    background: $secondary-color;
+    border: none;
+    color: $base-color;
+  }
+}
+
+.sign-up {
+  .container {
+    padding: 85px 75px;
+  }
+}

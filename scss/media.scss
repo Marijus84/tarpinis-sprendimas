@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+  header,
+  .sign-up {
+    .container {
+      padding: 100px 10px;
+      form {
+        flex-direction: column;
+
+        input[type="text"],
+        input[type="submit"] {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #features {
+    flex-direction: column;
+  }
+
+  #main {
+    .showcase {
+      flex-direction: column;
+
+      img {
+        width: 100%;
+        object-fit: none;
+        object-position: left;
+      }
+
+      div {
+        width: 100%;
+      }
+    }
+  }
+
+  .testimonials {
+    .wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .links {
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -1,0 +1,32 @@
+.links {
+  @include apply-main-container;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 0;
+
+  nav a {
+    color: $secondary-color;
+    text-decoration: none;
+    font-size: 0.9rem;
+
+    &:not(:last-of-type)::after {
+      content: "•";
+      margin-left: 10px;
+      margin-right: 5px;
+    }
+  }
+
+  p {
+    font-size: 0.65rem;
+    padding: 10px 0;
+  }
+
+  .social {
+    i {
+      color: $secondary-color;
+      padding: 0 15px;
+      font-size: 1.4rem;
+    }
+  }
+}

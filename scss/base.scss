@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: $base-color;
+  padding-top: 47px;
+
+  p {
+    color: rgba(0, 0, 0, 0.75);
+  }
+}
